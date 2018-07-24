@@ -1,0 +1,21 @@
+<div class = "container">
+    <table class = "table table-striped table-bordered">
+        <tr style = "background: lightblue;">
+            <th>ID</th>
+            <th>TITLE</th>
+            <th>AUTHOR</th>
+        </tr>
+        <tr *ngFor = "let book of books">
+            <td>{{book.id}}</td>
+            <td>{{book.title}}</td>
+            <td>{{book.author}}</td>
+        </tr>
+        <tr *ngIf = "!books">
+            <td colspan = "3">Loading... Please wait....</td>
+        </tr>
+        <tr *ngIf = "books && books.length == 0">
+            <td colspan = "3">No records found!</td>
+        </tr>
+
+    </table>
+</div>
