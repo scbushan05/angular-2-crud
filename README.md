@@ -26,7 +26,7 @@ intall npm
 
 **4. Change the REST API URL's**
 
-In the book.service.ts change the REST API URL's, i have created backend project using Spring REST, you can find that 'book-api' in my repositories
+In the book.service.ts change the REST API URL's, i have created backend project using Spring REST, you can find it here <https://github.com/scbushan05/book-api>
 
 **5. Build and run the app**
 
